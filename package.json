@@ -8,8 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "maplibre-gl": "^1.14.0",
     "next": "10.2.3",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "^0.0.0-experimental-a8964649b",
+    "react-dom": "17.0.2",
+    "react-mapbox-gl": "^5.1.1"
   }
 }
