@@ -13,7 +13,8 @@ module.exports = {
           resolve:{
             alias: {
               ...config.resolve.alias,
-              'mapbox-gl': require.resolve('maplibre-gl')
+              'mapbox-gl': 'maplibre-gl'
+              //'mapbox-gl': require.resolve('maplibre-gl')
             }
           }
         })
